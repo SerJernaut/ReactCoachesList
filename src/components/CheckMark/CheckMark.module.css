@@ -1,0 +1,10 @@
+.roundCheckItem {
+    background-color: #DBE0E6;
+    border-radius: 100%;
+    width: 28px;
+    height: 28px;
+}
+
+.checkedMark{
+    background-color: #48C1C2 !important;
+}

@@ -1,0 +1,25 @@
+.toElement {
+    margin: 20px;
+    color: #0B3157;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    line-height: 17px;
+    opacity: 0.5;
+    text-align: left;
+}
+
+.markedCoaches {
+    color: #48C1C2;
+}
+
+.markedCoachesContainer{
+    display: flex;
+    align-items: center;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    line-height: 17px;
+}

@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d49b65c0-2e03-4e4b-8a55-edfdaa867df2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Avatar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Coaches.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Avatar/Avatar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Avatar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CheckMark/CheckMark.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CheckMark/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CoachTextInfo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CoachesList/CoachesList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CoachesList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MarkCoaches/MarkCoaches.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MarkCoaches/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Avatar.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coaches.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coaches.module.css" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -35,29 +39,23 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1Y7itp8UVNoH01EDKYDg5cauPIn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StartReact" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v12.15.0/bin/node" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="$USER_HOME$/.nvm/versions/node/v12.15.0/lib/node_modules/npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -74,6 +72,18 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -85,6 +95,8 @@
       <option name="presentableId" value="Default" />
       <updated>1582300250541</updated>
       <workItem from="1582300253886" duration="10488000" />
+      <workItem from="1582364807980" duration="10476000" />
+      <workItem from="1582445599936" duration="3637000" />
     </task>
     <servers />
   </component>
@@ -96,10 +108,22 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="370" y="240" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582368810150">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="370" y="240" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.984@0.0.1280.984" timestamp="1582368810150" />
+    <state x="336" y="317" key="com.intellij.ide.util.TipDialog" timestamp="1582445671098">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="336" y="317" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1582445671098" />
   </component>
 </project>
